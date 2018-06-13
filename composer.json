@@ -1,0 +1,22 @@
+{
+    "name": "phpmodules/dbal",
+    "description": "DBAL layer for zend expressive",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weinan",
+            "email": "twn39@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/dbal": "2.3.5",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPModules\\DBAL\\": "src/"
+        }
+    }
+}

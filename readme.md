@@ -32,9 +32,9 @@ return [
     ],
 
     'DB' => [
-        'dbname' => 'echoes',
-        'user' => 'twn39',
-        'password' => 'tangweinan',
+        'dbname' => 'db',
+        'user' => 'name',
+        'password' => 'password',
         'host' => 'localhost',
         'driver' => 'pdo_pgsql',
         'port' => 5432,
